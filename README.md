@@ -6,6 +6,7 @@ Final Proyek Pemrograman Berorientasi Obyek 1
 
 Kelompok
 Kelompok: {AFJ} 
+
 Proyek: {Sistem Manajemen Gudang) 
 
 Anggota:
@@ -17,6 +18,7 @@ Anggota 1: Muhamad Farhan Rizki
 Anggota 2: Jujun Sahroni
 
 Judul Studi Kasus
+
 Pengembangan Sistem Informasi Manajemen Gudang untuk Pengelolaan Data Barang
 
 Penjelasan Studi Kasus
@@ -38,13 +40,13 @@ Polimorfisme diterapkan melalui metode override, seperti metode hitungHarga atau
    Abstract diterapkan dengan mendesain operasi dasar yang harus dimiliki setiap kelas turunan, seperti metode simpan atau hapus. Metode ini dideklarasikan di kelas abstrak dan diimplementasikan oleh kelas-kelas yang membutuhkan.  
 
 Struktur Tabel Aplikasi
-Tabel barang digunakan untuk menyimpan semua informasi terkait barang yang dikelola dalam gudang. Kolom kode_barang digunakan sebagai kunci utama untuk mengidentifikasi barang secara unik. Kolom nama_barang menyimpan nama barang, sedangkan kolom stok mencatat jumlah barang yang tersedia. harga_beli digunakan untuk mencatat harga barang dari pemasok, sedangkan harga_jual digunakan untuk mencatat harga yang dijual kepada konsumen. Struktur ini dirancang sederhana namun mencakup semua kebutuhan operasional gudang.  
-Tampilan Aplikasi
 
+Tabel barang digunakan untuk menyimpan semua informasi terkait barang yang dikelola dalam gudang. Kolom kode_barang digunakan sebagai kunci utama untuk mengidentifikasi barang secara unik. Kolom nama_barang menyimpan nama barang, sedangkan kolom stok mencatat jumlah barang yang tersedia. harga_beli digunakan untuk mencatat harga barang dari pemasok, sedangkan harga_jual digunakan untuk mencatat harga yang dijual kepada konsumen. Struktur ini dirancang sederhana namun mencakup semua kebutuhan operasional gudang.  
+
+Tampilan Aplikasi
 Antarmuka aplikasi dirancang untuk kemudahan penggunaan. Pengguna dapat mengisi form untuk menambahkan data barang baru atau mengedit data barang yang sudah ada. Data yang tersimpan ditampilkan dalam tabel yang mudah dibaca. Tombol-tombol seperti "Simpan", "Tambah", dan "Hapus" memberikan kontrol penuh kepada pengguna untuk memanipulasi data barang. 
 
 Demo Proyek
-
 Github: Github
 
 Youtube: Youtube
