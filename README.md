@@ -5,6 +5,7 @@ Final Proyek Pemrograman Berorientasi Obyek 1
 * Dosen Pengampu: Muhammad Ikhwan Fathulloh
 
 Kelompok
+
 Kelompok: {AFJ} 
 
 Proyek: {Sistem Manajemen Gudang) 
@@ -22,11 +23,13 @@ Judul Studi Kasus
 Pengembangan Sistem Informasi Manajemen Gudang untuk Pengelolaan Data Barang
 
 Penjelasan Studi Kasus
+
 Sistem Manajemen Gudang adalah sebuah aplikasi berbasis desktop yang berfungsi untuk mengelola data barang di gudang. Fitur utama aplikasi ini meliputi:  
-1. Menambah Data Barang: Pengguna dapat menambahkan data barang baru ke dalam sistem, seperti kode barang, nama barang, stok, harga beli, dan harga jual.  
-2. Mengedit Data Barang: Pengguna dapat memperbarui informasi barang, seperti jumlah stok atau harga.  
-3. Menghapus Data Barang: Pengguna dapat menghapus data barang yang sudah tidak diperlukan.  
-4. Menampilkan Data Barang: Sistem menampilkan seluruh data barang yang tersimpan dalam database dalam bentuk tabel.  
+A. Menambah Data Barang: Pengguna dapat menambahkan data barang baru ke dalam sistem, seperti kode barang, nama barang, stok, harga beli, dan harga jual.  
+B. Mengedit Data Barang: Pengguna dapat memperbarui informasi barang, seperti jumlah stok atau harga.  
+C. Menghapus Data Barang: Pengguna dapat menghapus data barang yang sudah tidak diperlukan.  
+D. Menampilkan Data Barang: Sistem menampilkan seluruh data barang yang tersimpan dalam database dalam bentuk tabel. 
+
 Aplikasi ini terintegrasi dengan database FreeDB Tech menggunakan koneksi JDBC untuk memastikan data tersimpan dan dapat diakses secara real-time. Dengan tampilan antarmuka yang sederhana, sistem ini mudah digunakan oleh siapa saja, termasuk pengguna yang tidak memiliki latar belakang teknis.  
 Penjelasan 4 Pilar OOP dalam Studi Kasus
 
@@ -47,6 +50,7 @@ Tampilan Aplikasi
 Antarmuka aplikasi dirancang untuk kemudahan penggunaan. Pengguna dapat mengisi form untuk menambahkan data barang baru atau mengedit data barang yang sudah ada. Data yang tersimpan ditampilkan dalam tabel yang mudah dibaca. Tombol-tombol seperti "Simpan", "Tambah", dan "Hapus" memberikan kontrol penuh kepada pengguna untuk memanipulasi data barang. 
 
 Demo Proyek
+
 Github: Github
 
 Youtube: Youtube
