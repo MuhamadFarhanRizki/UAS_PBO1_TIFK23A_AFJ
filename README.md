@@ -31,6 +31,7 @@ C. Menghapus Data Barang: Pengguna dapat menghapus data barang yang sudah tidak 
 D. Menampilkan Data Barang: Sistem menampilkan seluruh data barang yang tersimpan dalam database dalam bentuk tabel. 
 
 Aplikasi ini terintegrasi dengan database FreeDB Tech menggunakan koneksi JDBC untuk memastikan data tersimpan dan dapat diakses secara real-time. Dengan tampilan antarmuka yang sederhana, sistem ini mudah digunakan oleh siapa saja, termasuk pengguna yang tidak memiliki latar belakang teknis.  
+
 Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 1. Inheritance
