@@ -7,9 +7,13 @@ Final Proyek Pemrograman Berorientasi Obyek 1
 Kelompok
 Kelompok: {AFJ} 
 Proyek: {Sistem Manajemen Gudang) 
+
 Anggota:
+
 Ketua: Aldi Rizkiansyah 
+
 Anggota 1: Muhamad Farhan Rizki 
+
 Anggota 2: Jujun Sahroni
 
 Judul Studi Kasus
@@ -36,8 +40,11 @@ Polimorfisme diterapkan melalui metode override, seperti metode hitungHarga atau
 Struktur Tabel Aplikasi
 Tabel barang digunakan untuk menyimpan semua informasi terkait barang yang dikelola dalam gudang. Kolom kode_barang digunakan sebagai kunci utama untuk mengidentifikasi barang secara unik. Kolom nama_barang menyimpan nama barang, sedangkan kolom stok mencatat jumlah barang yang tersedia. harga_beli digunakan untuk mencatat harga barang dari pemasok, sedangkan harga_jual digunakan untuk mencatat harga yang dijual kepada konsumen. Struktur ini dirancang sederhana namun mencakup semua kebutuhan operasional gudang.  
 Tampilan Aplikasi
+
 Antarmuka aplikasi dirancang untuk kemudahan penggunaan. Pengguna dapat mengisi form untuk menambahkan data barang baru atau mengedit data barang yang sudah ada. Data yang tersimpan ditampilkan dalam tabel yang mudah dibaca. Tombol-tombol seperti "Simpan", "Tambah", dan "Hapus" memberikan kontrol penuh kepada pengguna untuk memanipulasi data barang. 
 
 Demo Proyek
+
 Github: Github
+
 Youtube: Youtube
