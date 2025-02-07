@@ -1,5 +1,3 @@
-Perencanaan: Berikut merupakan perencanaan dan gambaran dari sistem yang akan di buat sebelum ke codingannya
-
 Final Proyek Pemrograman Berorientasi Obyek 1
 * Mata Kuliah: Pemrograman Berorientasi Obyek 1
 * Dosen Pengampu: Muhammad Ikhwan Fathulloh
@@ -30,26 +28,32 @@ B. Mengedit Data Barang: Pengguna dapat memperbarui informasi barang, seperti ju
 C. Menghapus Data Barang: Pengguna dapat menghapus data barang yang sudah tidak diperlukan.  
 D. Menampilkan Data Barang: Sistem menampilkan seluruh data barang yang tersimpan dalam database dalam bentuk tabel. 
 
-Aplikasi ini terintegrasi dengan database FreeDB Tech menggunakan koneksi JDBC untuk memastikan data tersimpan dan dapat diakses secara real-time. Dengan tampilan antarmuka yang sederhana, sistem ini mudah digunakan oleh siapa saja, termasuk pengguna yang tidak memiliki latar belakang teknis.  
+Aplikasi ini terintegrasi dengan database menggunakan koneksi JDBC untuk memastikan data tersimpan dan dapat diakses secara real-time. Dengan tampilan antarmuka yang sederhana, sistem ini mudah digunakan oleh siapa saja, termasuk pengguna yang tidak memiliki latar belakang teknis.  
 
 Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 1. Inheritance
-Pewarisan diterapkan dengan membuat kelas induk Barang yang berisi atribut umum seperti kode barang, nama barang, stok, harga beli, dan harga jual. Jika dibutuhkan kategori khusus seperti barang elektronik atau barang makanan, kelas turunan dapat dibuat untuk menambahkan atribut atau metode spesifik yang sesuai.  
+Kelas ItemOperations mewarisi sifat dari DatabaseConnection, sehingga semua operasi database dapat diakses dengan mudah.
 2. Encapsulation
-Untuk menjaga integritas data, semua atribut pada kelas Barang dibuat private. Akses dan modifikasi data hanya dapat dilakukan melalui metode getter dan setter. Misalnya, jumlah stok hanya dapat diubah melalui metode yang memvalidasi input untuk menghindari nilai negatif.  
+Variabel dalam kelas Item dibuat private dan hanya bisa diakses melalui metode getter dan setter untuk menjaga keamanan data.
 3. Polymorphism
-Polimorfisme diterapkan melalui metode override, seperti metode hitungHarga atau tampilkanDetail. Jika ada kategori barang khusus, metode ini dapat disesuaikan untuk memberikan hasil yang berbeda berdasarkan jenis barangnya.  
+Metode addItem() dan updateItem() dalam ItemOperations menggunakan parameter yang sama tetapi memiliki perilaku berbeda berdasarkan kondisi barang baru atau update.
 4. Abstract
-   Abstract diterapkan dengan mendesain operasi dasar yang harus dimiliki setiap kelas turunan, seperti metode simpan atau hapus. Metode ini dideklarasikan di kelas abstrak dan diimplementasikan oleh kelas-kelas yang membutuhkan.  
-
+   Kelas DatabaseConnection menyembunyikan detail koneksi ke database, sehingga pengguna hanya perlu memanggil fungsi koneksi tanpa perlu tahu cara kerjanya di belakang layar.
+   
 Struktur Tabel Aplikasi
 
-Tabel barang digunakan untuk menyimpan semua informasi terkait barang yang dikelola dalam gudang. Kolom kode_barang digunakan sebagai kunci utama untuk mengidentifikasi barang secara unik. Kolom nama_barang menyimpan nama barang, sedangkan kolom stok mencatat jumlah barang yang tersedia. harga_beli digunakan untuk mencatat harga barang dari pemasok, sedangkan harga_jual digunakan untuk mencatat harga yang dijual kepada konsumen. Struktur ini dirancang sederhana namun mencakup semua kebutuhan operasional gudang.  
+Tabel items digunakan untuk menyimpan data barang yang ada di dalam gudang. Setiap barang memiliki ID unik yang dihasilkan secara otomatis oleh sistem (Auto Increment). Barang juga memiliki nama, kategori, dan jumlah stok yang tersedia. Selain itu, terdapat kolom created_at yang otomatis mencatat waktu saat barang tersebut ditambahkan ke dalam sistem. Dengan struktur ini, admin dapat dengan mudah menambah, memperbarui, atau menghapus barang, sementara petugas hanya dapat melihat daftar barang tanpa mengeditnya.
+
+Sementara itu, tabel users digunakan untuk menyimpan informasi pengguna yang memiliki akses ke sistem gudang. Setiap pengguna memiliki ID unik, username yang harus bersifat unik, serta password yang sebaiknya dienkripsi untuk keamanan. Selain itu, terdapat kolom role yang menentukan hak akses pengguna, yaitu admin atau petugas. Admin dan petugas/users memiliki wewenang penuh untuk mengelola barang dalam gudang.
 
 Tampilan Aplikasi
 
-Antarmuka aplikasi dirancang untuk kemudahan penggunaan. Pengguna dapat mengisi form untuk menambahkan data barang baru atau mengedit data barang yang sudah ada. Data yang tersimpan ditampilkan dalam tabel yang mudah dibaca. Tombol-tombol seperti "Simpan", "Tambah", dan "Hapus" memberikan kontrol penuh kepada pengguna untuk memanipulasi data barang. 
+📌 LoginView – Halaman login dengan tampilan biru putih.
+📌 RegisterView – Halaman registrasi untuk pengguna baru.
+📌 DashboardView – Halaman utama serta menampilkan peraturan gudang .
+📌 tabelbarang – Menampilkan tabel barang serta fitur tambah dan hapus barang.
+📌 logout – keluar dari aplikasi.
 
 Demo Proyek
 
