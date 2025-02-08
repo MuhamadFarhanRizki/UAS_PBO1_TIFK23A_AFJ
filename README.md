@@ -57,6 +57,6 @@ Tampilan Aplikasi
 
 Demo Proyek
 
-Github: Github
+Github: https://github.com/MuhamadFarhanRizki/UAS_PBO1_TIFK23A_AFJ.git
 
-Youtube: Youtube
+Youtube: https://youtu.be/Rfz1EGqxY04?si=ME_LgZm4rGq5IT3z
